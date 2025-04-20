@@ -3,7 +3,9 @@ from snowflake.snowpark import Session
 import pandas as pd
 
 st.set_page_config(page_title="Snowflake Streamlit App", layout="centered")
-st.title("📊 Project 7: Snowflake + Streamlit App")
+st.title("CLOUD COMPUTING - Project 7: Snowflake + Streamlit App")
+st.write("**Created by:** Sumanjali Peddanna  \n**Student ID:** M16565938")
+
 st.markdown("This app connects to Snowflake using **Snowpark for Python** and displays session details for the user `RASHMI`.")
 
 # Define Snowflake connection configuration
